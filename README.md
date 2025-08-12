@@ -1,47 +1,63 @@
-# ⭐Plant-Disease-Detection
-* Plant Disease is necessary for every farmer so we are created Plant disease detection using Deep learning. In which we are using convolutional Neural Network for classifying Leaf images into 39 Different Categories. The Convolutional Neural Code build in Pytorch Framework. For Training we are using Plant village dataset. Dataset Link is in My Blog Section.
+Got it! Here’s the cleaned-up README without any images:
 
-## ⭐Run Project in your Machine
-* You must have **Python3.8** installed in your machine.
-* Create a Python Virtual Environment & Activate Virtual Environment [Link](https://docs.python.org/3/tutorial/venv.html)
-* Install all the dependencies using below command
-    `pip install -r requirements.txt`
-* Go to the `Flask Deployed App` folder.
-* Download the pre-trained model file `plant_disease_model_1.pt` from [here](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link)
-* Add the downloaded file in `Flask Deployed App` folder.
-* Run the Flask app using below command `python3 app.py`
-* You can also use downloaded file in `Model` Section and play with it using Jupyter Notebook.
+---
 
-## ⭐Contribution ( Open Source )
-* This Project is now open source.
-* All the developers who are intrested they can contribute in this project.
-* Yo can make UI better , make Deep learning model more powerful , add informative markdown file in section...
-* If you will change Deep learning make sure you upload updated markdown file (.md) , .pdf and .ipynb in particular section.
-* Make sure your code is working. It will not have any type or error.
-* You have to fork this project then make a pull request after you testing will successful.
-* How to make pull request : https://opensource.com/article/19/7/create-pull-request-github
+# 🌿 Plant Disease Detection
+
+This project helps farmers detect plant diseases using Deep Learning. We use a Convolutional Neural Network (CNN) built with PyTorch to classify leaf images into **39 different disease categories**. The model is trained on the popular PlantVillage dataset.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Python 3.8 installed on your machine
+* Basic knowledge of Python and virtual environments
+
+### Setup Instructions
+
+1. **Create and activate** a Python virtual environment:
+   [Python venv Guide](https://docs.python.org/3/tutorial/venv.html)
+
+2. **Install required dependencies** by running:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Navigate to the `Flask Deployed App` directory.
+
+4. Download the pre-trained model file `plant_disease_model_1.pt` from [this link](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link) and place it inside the `Flask Deployed App` folder.
+
+5. Run the Flask application using:
+
+   ```bash
+   python3 app.py
+   ```
+
+6. The web app will be accessible locally, and you can upload leaf images to detect diseases.
+
+*Alternatively*, you can use the pre-trained model in the `Model` section with Jupyter Notebook for experimentation.
+
+---
+
+## 🤝 Contribution Guidelines
+
+* This project is **open source** and welcomes contributions!
+* You can improve the UI, enhance the deep learning model, or add documentation.
+* If you modify the deep learning model, please include updated `.md`, `.pdf`, and `.ipynb` files.
+* Ensure your code runs without errors before submitting.
+* Fork the repository, make your changes, and submit a pull request.
+* For help with pull requests, see: [How to create a pull request](https://opensource.com/article/19/7/create-pull-request-github)
+
+---
+
+## 📂 Testing Images
+
+If you don’t have leaf images to test, you can use the sample images located in the `test_images` folder. Each image is labeled with the corresponding disease, so you can verify model accuracy easily.
+
+---
 
 
-## ⭐Testing Images
-
-* If you do not have leaf images then you can use test images located in test_images folder
-* Each image has its corresponding disease name, so you can verify whether the model is working perfectly or not
-
-## ⭐Blog Link
-<a href="https://medium.com/analytics-vidhya/plant-disease-detection-using-convolutional-neural-networks-and-pytorch-87c00c54c88f" target = "_blank">Plant Disease Detection Using Convolutional Neural Networks with PyTorch</a><br>
-
-## ⭐Deployed App
-<a href="https://plant-disease-detection-ai.herokuapp.com/" target = "_blank">Plant-Disease-Detection-AI</a><br>
-
-
-## ⭐Snippet of Web App :
-#### Main page
-<img src = "demo_images/1.png" > <br>
-#### AI Engine 
-<img src = "demo_images/2.png"> <br>
-#### Results Page 
-<img src = "demo_images/3.png"> <br>
-#### Supplements/Fertilizer  Store
-<img src = "demo_images/4.JPG"> <br>
-#### Contact Us 
-<img src = "demo_images/5.png"> <br><br>
+If you want me to add or remove anything else, just say!
