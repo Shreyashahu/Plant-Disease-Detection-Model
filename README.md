@@ -1,7 +1,3 @@
-Got it! Here’s the cleaned-up README without any images:
-
----
-
 # 🌿 Plant Disease Detection
 
 This project helps farmers detect plant diseases using Deep Learning. We use a Convolutional Neural Network (CNN) built with PyTorch to classify leaf images into **39 different disease categories**. The model is trained on the popular PlantVillage dataset.
