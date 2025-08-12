@@ -1,0 +1,3 @@
+[submodule "Plant-Disease-Detection"]
+    path = Plant-Disease-Detection
+    url = https://github.com/Shreyashahu/Plant-Disease-Detection.git
